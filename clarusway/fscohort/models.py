@@ -5,7 +5,7 @@ from django.db import models
 
 
 class Student(models.Model):
-    sir_name = models.CharField(max_length=50)
+    sir_name = models.CharField(max_length=60)
     last_name = models.CharField(max_length=50)
     number = models.IntegerField()
     
